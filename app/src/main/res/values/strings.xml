@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CRUelaDeville</string>
+    <string name="UserInserted">Utilizador Inserido com Sucesso</string>
+    <string name="UserInsertedError">Erro na Criação do Utilizador</string>
+    <string name="UserCredentialsCheckOut">Credenciais Correctas</string>
+    <string name="UserCredentialsDOnOTCheckOut">Credenciais INcorrectas</string>
+</resources>
