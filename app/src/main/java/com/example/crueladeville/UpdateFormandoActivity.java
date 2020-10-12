@@ -21,7 +21,7 @@ public class UpdateFormandoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_updateformando);
-
+        setTitle("EDITAR Informação Formando");
 
         editTextNumero = findViewById(R.id.editTextNumero);
         editTextNome = findViewById(R.id.editTextNome);

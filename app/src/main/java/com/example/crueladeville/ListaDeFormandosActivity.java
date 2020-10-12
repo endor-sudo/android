@@ -27,6 +27,7 @@ public class ListaDeFormandosActivity extends AppCompatActivity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listadeformandos);
+        setTitle("LISTA de Formandos");
 
         myDB = new DataBaseHelper(this);
 

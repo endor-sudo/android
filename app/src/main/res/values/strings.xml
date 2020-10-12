@@ -4,4 +4,21 @@
     <string name="UserInsertedError">Erro na Criação do Utilizador</string>
     <string name="UserCredentialsCheckOut">Credenciais Correctas</string>
     <string name="UserCredentialsDOnOTCheckOut">Credenciais INcorrectas</string>
+    <string name="username">UserName</string>
+    <string name="pass">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="numero">Número</string>
+    <string name="nome">Nome</string>
+    <string name="contacto">Contacto</string>
+    <string name="inserir">INSERIR</string>
+    <string name="logout">LOGOUT</string>
+    <string name="email">Email</string>
+    <string name="cancel">CANCEL</string>
+    <string name="telefone">Telefone</string>
+    <string name="idade">Idade</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="ver">VER</string>
 </resources>

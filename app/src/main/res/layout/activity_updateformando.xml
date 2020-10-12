@@ -12,12 +12,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
         android:ems="10"
-        android:hint="Numero"
+        android:hint="@string/numero"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -25,12 +26,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextIdade" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextIdade"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextIdade"
@@ -38,12 +40,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Idade"
+        android:hint="@string/idade"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTelefone" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTelefone"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTelefone"
@@ -51,12 +54,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:ems="10"
-        android:hint="Telefone"
+        android:hint="@string/telefone"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNome" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNome"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextNome"
@@ -64,12 +68,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Nome"
+        android:hint="@string/nome"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumero" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumero"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button9"
@@ -79,7 +84,7 @@
         android:layout_marginLeft="48dp"
         android:layout_marginTop="68dp"
         android:onClick="UpdateBtns"
-        android:text="UPDATE"
+        android:text="@string/update"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
@@ -91,7 +96,7 @@
         android:layout_marginEnd="56dp"
         android:layout_marginRight="56dp"
         android:onClick="UpdateBtns"
-        android:text="DELETE"
+        android:text="@string/delete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
@@ -103,7 +108,7 @@
         android:layout_marginEnd="56dp"
         android:layout_marginRight="56dp"
         android:onClick="UpdateBtns"
-        android:text="VER"
+        android:text="@string/ver"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
 
@@ -115,7 +120,7 @@
         android:layout_marginLeft="48dp"
         android:layout_marginTop="68dp"
         android:onClick="UpdateBtns"
-        android:text="VOLTAR"
+        android:text="@string/voltar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
 

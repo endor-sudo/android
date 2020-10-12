@@ -13,12 +13,20 @@
         android:padding="2dp" >
 
         <TextView
+            android:id="@+id/textViewNumber"
+            android:layout_width="0dp"
+            android:layout_weight="0.35"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="10pt" />
+
+        <TextView
             android:id="@+id/textViewName"
             android:layout_width="0dp"
             android:layout_weight="0.65"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:layout_gravity="left"
+            android:layout_gravity="center"
             android:textSize="10pt" />
 
         <TextView

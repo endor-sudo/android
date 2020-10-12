@@ -16,6 +16,7 @@ public class RegisterFormandoActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_formando);
+        setTitle("Registar NOVO Formando");
 
         appDB=new DataBaseHelper(this);
     }

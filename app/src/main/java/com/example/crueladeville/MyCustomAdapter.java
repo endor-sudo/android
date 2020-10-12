@@ -51,9 +51,11 @@ public class MyCustomAdapter extends BaseAdapter {
 
         Formando contact = contactsArrayList.get(position);
 
+        TextView textViewNumber = view.findViewById(R.id.textViewNumber);
         TextView textViewName = view.findViewById(R.id.textViewName);
         TextView textViewPhone = view.findViewById(R.id.textViewPhone);
 
+        textViewNumber.setText(contact.getNumero());
         textViewName.setText(contact.getNome());
         textViewPhone.setText(contact.getTelefone());
 

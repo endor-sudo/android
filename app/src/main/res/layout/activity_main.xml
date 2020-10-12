@@ -12,11 +12,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/pass"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainUsername" />
+        app:layout_constraintTop_toBottomOf="@+id/mainUsername"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button3"
@@ -24,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:onClick="LoginBtn"
-        android:text="LOGIN"
+        android:text="@string/login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mainPassword" />
@@ -35,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:onClick="LoginBtn"
-        android:text="REGISTER"
+        android:text="@string/register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
@@ -46,10 +47,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="104dp"
         android:ems="10"
-        android:hint="Username"
+        android:hint="@string/username"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
